@@ -1,0 +1,49 @@
+.main-footer{
+    margin-top: 1rem;
+    background: #000;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.footer ul ul{
+display: block;
+list-style: none;
+}
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.footer span{
+    text-align: center;
+    color: #fff;
+   padding-left: 1.8rem;
+   position: relative;
+   font-size: 1rem;
+}
+.footer span::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50%;
+    background: #ad7d7d;
+top: 25px;
+left: 20px;
+}
+.listmenu{
+    margin-top: 1rem;
+}
+.footer-icon{
+    padding-top: 1rem;
+}
+.footer-icon a{
+    background: #626262;
+    padding: 0.5rem 0.7rem;
+    border-radius:1rem;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+

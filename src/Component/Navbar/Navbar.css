@@ -1,0 +1,68 @@
+.main-nav{
+    width: 100%;
+    padding:0rem 2rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0,0,0,0.1);
+}
+.main-nav .logo a{
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.main-nav .logo img{
+    width: 70px;
+    height: 70px;
+    margin-right: 0.5rem;
+}
+nav a{
+display: inline;
+text-decoration: none;
+color: #626262;
+margin-left:1rem;
+font-size: 1rem;
+font-weight: bold;
+}
+nav a:hover{
+    color: #575656;
+}
+.menu{
+    font-size: 1rem;
+color: #626262;
+border: 4px solid rgba(0,0,0,0.1);
+padding: 0.2rem 0.7rem;
+cursor: pointer;
+display: none;
+}
+
+@media only screen and (max-width:991px){
+    nav{
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        background: #fff;
+        z-index: 100;
+        right:  -200px;
+        top: 70px;
+        transition: 0.5s;
+    }
+    nav.active{
+        right: 0px;
+        display: block;
+    }
+  nav a{
+    display: block;
+    line-height: 3em;
+  }
+    .menu{
+        display: block;
+    }
+}

@@ -1,0 +1,132 @@
+.hero{
+    background: linear-gradient(rgba(102, 98, 98, 0.1), #585555), url(../Images/book-library-old-open-textbook-260nw-785109361.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+.hero .searchbar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+background: #d6b8b8;
+box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+width: 50%;
+border-radius: 1rem;
+padding: 0.5rem;
+}
+.hero .searchbar:hover{
+    background: #fff;
+}
+.hero .searchbar .search input{
+    width: 95%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: transparent;
+font-size: 1rem;
+color: #626262;
+}
+.hero .searchbar .search a i{
+    font-size: 1rem;
+    color: #626262;
+}
+table td{
+    display: block;
+}
+@media only screen and (max-width:991px){
+    .hero .searchbar .search input{
+width:90%;
+padding:10re ;
+    }
+}
+.searchbar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.search{
+    width: 100%;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background: #fff;
+}
+.search input{
+    width: 95%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: transparent;
+font-size: 1rem;
+color: #626262;
+}
+.hero .searchbar .search a i{
+    font-size: 1rem;
+    color: #626262;
+}
+table td{
+    display: block;
+}
+.head-text{
+    text-align: center;
+    color: #fff;
+}
+.head-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.head-text p{
+    line-height: 1.7em;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card-img img{
+    width: 100%;
+   height: 100%;
+    overflow: hidden;
+
+}
+.card-img img:hover{
+    transform: scale(0.9);
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #626262;
+    padding-bottom: 1rem;
+}
+.card-btn{
+    width: 100%;
+    color: #fff;
+}
+@media only screen and (max-width:771px){
+    .hero .searchbar .search input{
+width:90%;
+padding:10re ;
+    }
+.head-text h1{
+    font-size: 2rem;
+}
+.head-text p{
+    font-size: 13px;
+}
+    
+}
+@media only screen and (max-width:991px){
+
+}
+
+
+

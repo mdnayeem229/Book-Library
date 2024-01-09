@@ -1,0 +1,51 @@
+.hero{
+    background: linear-gradient(rgba(102, 98, 98, 0.1), #585555), url(../Images/book-library-old-open-textbook-260nw-785109361.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+.hero .searchbar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+background: #d6b8b8;
+box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+width: 50%;
+border-radius: 1rem;
+padding: 0.5rem;
+}
+.hero .searchbar:hover{
+    background: #fff;
+}
+.hero .searchbar .search input{
+    width: 95%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: transparent;
+font-size: 1rem;
+color: #626262;
+}
+.hero .searchbar .search a i{
+    font-size: 1rem;
+    color: #626262;
+}
+table td{
+    display: block;
+}
+@media only screen and (max-width:991px){
+    .hero .searchbar .search input{
+width:90%;
+padding:10re ;
+    }
+
+    
+}
+
+
+
+
